@@ -2,9 +2,10 @@
  * A function that returns the manager id for the input employee id passed as argument
  */
  
-CREATE OR REPLACE FUNCTION get_manager_id (p_emp_id NUMBER)
+CREATE OR REPLACE
+FUNCTION get_manager_id (p_emp_id NUMBER)
 RETURN NUMBER
-DECLARE
+IS
 	v_manager_id	employee.manager_id%type;
 	v_count			NUMBER;
 BEGIN
@@ -16,9 +17,8 @@ BEGIN
 		FROM employee
 		WHERE manager_id = p_emp_id;
 	ELSE
-		v_manager_id := NULL
-	END;
+		v_manager_id := NULL;
+	END IF;
 	
 	RETURN v_manager_id;
 END;
-/
