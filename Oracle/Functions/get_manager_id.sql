@@ -7,7 +7,7 @@ FUNCTION get_manager_id (p_emp_id NUMBER)
 RETURN NUMBER
 IS
 	v_manager_id	employee.manager_id%type;
-	v_count			NUMBER;
+	v_count			  NUMBER;
 BEGIN
 	SELECT COUNT(1) INTO v_count FROM employee WHERE employee_id = p_emp_id;
 	
@@ -22,3 +22,4 @@ BEGIN
 	
 	RETURN v_manager_id;
 END;
+/
