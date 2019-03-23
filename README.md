@@ -1,8 +1,8 @@
 <img src="https://cdn.worldvectorlogo.com/logos/amazon-database.svg"
      alt="Database Logo"
      style="float: right; margin-left: 10px; width:50%; height:60%" 
-     width="20%"
-     height="20%"
+     width="10%"
+     height="10%"
      align="right"/>
 
 # PLSQL & Backend Elements
