@@ -7,3 +7,5 @@ SET DEFINE OFF;
 @../Functions/get_employee_grade.sql
 
 @../Procedures/p_remove_department.sql
+
+@../Packages/crypto.sql
