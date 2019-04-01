@@ -13,5 +13,5 @@ A set of data base DDLs and DMLs that acts as a support for the other projects e
 
 ## Usage
 * Set of complex queries added as views
-* DDLs for Tables, Stored Procedures, View & Functions
+* DDLs for Tables, Stored Procedures, Views, Packages & Functions
 * DMLs for initial state data in the tables
