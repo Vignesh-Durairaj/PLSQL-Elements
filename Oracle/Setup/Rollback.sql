@@ -1,5 +1,7 @@
 SET DEFINE OFF;
 
+DROP VIEW v_duplicate_department;
+
 DROP TABLE department;
 DROP TABLE employee;
 
